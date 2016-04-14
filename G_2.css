@@ -1,5 +1,5 @@
 @import "G.css";
-body{background-repeat:no-repeat;background-position:center 0;background-color:#F3E9F7; margin:0 auto; overflow:hidden;}
+body{background-repeat:no-repeat;background-position:center 0;background-color:#F3E9F7; margin:0 auto;}
 .content{box-shadow: 0px 0px 0px 0px #F3E9F7;width:670px;background-color:#F7F1FC; margin:0 auto; overflow:hidden;}
 .notic{box-shadow: 0px 0px 8px 0px #E7DFF4; border-bottom:1px solid #E7DFF4;background:#F3EDF8;color:#7D7DBF}
 .a1{background-color:#F3EDF8;}
