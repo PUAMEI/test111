@@ -1,4 +1,4 @@
-@import "style.css";
+@import url("http://www.lincapp.net/ExportHtml/css/style.css");
 
 body{font-size: 14px;font-family:Microsoft YaHei,Tahoma, Verdana, Arial;background:url(bg.png) repeat-y center 0 ;}
 table{table-layout:fixed;empty-cells:show; border-collapse: collapse;}
