@@ -1,0 +1,67 @@
+@import "style.css";
+
+body{font-size: 14px;font-family:Microsoft YaHei,Tahoma, Verdana, Arial;background:url(bg.png) repeat-y center 0 ;}
+table{table-layout:fixed;empty-cells:show; border-collapse: collapse;}
+.t1{border:0px solid #9db3c5;width:100%;color:#666;}
+
+.a1{background-color:#e8f3fd;border:0px dotted #9db3c5;}
+.cg{color:#008000;}
+.cr{color:#800000;}
+
+.t1tr1{border-bottom:1px dotted #DDDDDD;}
+.t1td1{padding:8px 15px 8px 15px;border-bottom:1px dotted #DDDDDD;}
+
+.t2{width:100%;}
+
+.t2 tr{}
+.time{color:#999999;font-size:12px;}
+.t2td1{}
+.t2td2{padding:5px 0 0 8px;word-break:break-all;}
+
+.pic{
+border:0px solid #CDCDCD;border-radius: 5px;
+padding:5px;max-width: 370px; width:expression(this.width > 370 ? "370px" : this.width);
+background-color:#000;box-shadow: 0px 0px 6px 0px #333333; 
+}
+.nojs{display:block;padding:5px;border:1px solid #CC3300;background:#FCDADA;color:#FF0000;font-weight:bold;font-size:12px;}
+.noex{display:block;padding:5px;border:1px solid #FFDE59;background:#FFFFBB;color:#FF0000;font-weight:bold;font-size:12px;}
+
+
+a{text-decoration: underline;color: #4D6A82;}
+
+a:hover{text-decoration: underline;color: #6386A3;}
+
+.page{padding:5px 5px 10px 5px;border-bottom:1px dotted #DDDDDD;font-size:12px;}
+.nob{border-bottom:0px dotted #9db3c5;}
+.page span,.page a
+{
+        background: #EEEEEE;
+		border-radius: 2px;
+		box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+		color: #B0B0B0;
+		display: inline-block;
+		font-weight: normal;
+		float: left;
+		margin-right: 5px;margin-top: 5px;
+		padding: 1px 6px;text-decoration: none;
+}
+
+.page a:hover 
+{
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		border-color: #f79100;
+		background: url(gloss.png) repeat-x 0 -35px #f79100;
+		color: #fff;
+		text-shadow: -1px -1px 1px rgba(0,0,0,0.1);
+		text-decoration: none;
+}
+.page span.current {
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		border-color: #f79100;
+		background: url(gloss.png) repeat-x 0 -35px #f79100;
+		color: #fff;
+		text-shadow: -1px -1px 1px rgba(0,0,0,0.1);}  
+
+.content{width:670px;padding:10px 10px 10px 10px;margin:20px  auto;background-color:#FFFFFF;box-shadow: 0px 0px 8px 0px #CDCDCD;}
+.notic{color:#7D7D7D;font-size:14px; background:#F6F6F6;padding:10px; border-bottom:1px solid #CDCDCD;text-align:center;box-shadow: 0px 0px 8px 0px #CDCDCD;}
+.face{vertical-align:middle;border:0;}  
